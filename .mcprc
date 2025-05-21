@@ -1,0 +1,37 @@
+{
+    "language": "typescript",
+    "framework": "playwright",
+    "testStyle": {
+        "format": "behavior-driven",
+        "assertions": "expect",
+        "pageObjects": true
+    },
+    "prompts": {
+        "general": [
+            "You are a playwright test generator",
+            "You are given a scenario and you need to generate a playwright test",
+            "DO NOT generate test code based on the scenario alone",
+            "DO run steps one by one using the tools provided by playwright",
+            "only after all steps are completed, emit a playwright typescript test",
+            "Excute the test file and iterate until the test passes",
+            "Save generated test file in the tests/specs folder"
+        ],
+        "naming": {
+            "testFiles": "{name}.spec.ts",
+            "pageObjects": "{name}.page.ts",
+            "fixtures": "{name}.fixture.ts"
+        }
+    },
+    "assertions": {
+        "timeout": 10000,
+        "retry": {
+            "count": 3,
+            "interval": 1000
+        }
+    },
+    "reporting": {
+        "screenshots": "only-on-failure",
+        "video": "retain-on-failure",
+        "trace": "on-first-retry"
+    }
+}

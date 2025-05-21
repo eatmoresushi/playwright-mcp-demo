@@ -12,14 +12,11 @@ npm-debug.log*
 
 # Playwright output
 playwright-report/
+test-results/
 *.trace
 
 # Coverage directory
 coverage/
-
-# Environment variables
-.env
-.env.local
 
 # TypeScript definition files
 *.tsbuildinfo

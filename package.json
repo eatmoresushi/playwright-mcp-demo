@@ -16,8 +16,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@playwright/mcp": "^0.0.26",
     "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.21",
-    "dotenv": "^16.5.0"
+    "@types/node": "^22.15.21"
   }
 }
