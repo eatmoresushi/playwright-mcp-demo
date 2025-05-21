@@ -1,7 +1,35 @@
-
-# Playwright
+# Node modules
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
+
+# Built files
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Playwright output
+playwright-report/
+*.trace
+
+# Coverage directory
+coverage/
+
+# Environment variables
+.env
+.env.local
+
+# TypeScript definition files
+*.tsbuildinfo
+
+# IDE / editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
