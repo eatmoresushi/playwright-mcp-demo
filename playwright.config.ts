@@ -9,7 +9,6 @@ export default defineConfig({
   use: {
     headless: false,
     viewport: { width: 1280, height: 720 },
-    baseURL: 'https://debs-obrien.github.io/',
     screenshot: 'only-on-failure',
     trace: 'on-first-retry',
   },
