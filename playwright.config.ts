@@ -9,7 +9,7 @@ export default defineConfig({
   use: {
     headless: false,
     viewport: { width: 1280, height: 720 },
-    baseURL: 'https://debs-obrien.github.io/playwright-movies-app?category=Popular&page=1',
+    baseURL: 'https://debs-obrien.github.io/',
     screenshot: 'only-on-failure',
     trace: 'on-first-retry',
   },
@@ -18,13 +18,13 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
   ],
 });

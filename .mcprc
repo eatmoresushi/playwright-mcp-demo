@@ -2,9 +2,7 @@
     "language": "typescript",
     "framework": "playwright",
     "testStyle": {
-        "format": "behavior-driven",
-        "assertions": "expect",
-        "pageObjects": true
+        "assertions": "expect"
     },
     "prompts": {
         "general": [
