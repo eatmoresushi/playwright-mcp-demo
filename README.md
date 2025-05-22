@@ -9,7 +9,6 @@ This project contains automated tests for the Movie App using Playwright with Ty
 │   ├── pages/      # Page Object Models
 │   ├── utils/      # Helper functions and utilities
 │   ├── fixtures/   # Test fixtures and setup
-│   ├── data/       # Test data and constants
 │   └── specs/      # Test specifications
 ├── playwright.config.ts
 └── package.json
